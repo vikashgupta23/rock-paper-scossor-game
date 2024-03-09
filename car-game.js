@@ -7,7 +7,7 @@ let stopped = "1";
 
 while ("1") 
 {
-    console.log(("Your options are:\n\t1.Statr\n\t2.Stop\n\t3.Exit:"));
+    console.log(("Your options are:\n\t1.Start\n\t2.Stop\n\t3.Exit:"));
     let n=input.questionInt("Enter your option number:");
     if (n=="1") 
     {
